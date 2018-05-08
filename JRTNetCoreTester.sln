@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27703.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcMovie", "MvcMovie\MvcMovie.csproj", "{A1225DC7-2678-4B0F-8A0E-136DFA4CB0C6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDoApi", "ToDoApi\ToDoApi.csproj", "{66493608-C1AD-4C88-B907-66EE293D53D5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{A1225DC7-2678-4B0F-8A0E-136DFA4CB0C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A1225DC7-2678-4B0F-8A0E-136DFA4CB0C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A1225DC7-2678-4B0F-8A0E-136DFA4CB0C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66493608-C1AD-4C88-B907-66EE293D53D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66493608-C1AD-4C88-B907-66EE293D53D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66493608-C1AD-4C88-B907-66EE293D53D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66493608-C1AD-4C88-B907-66EE293D53D5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
