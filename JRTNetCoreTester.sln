@@ -3,9 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcMovie", "MvcMovie\MvcMovie.csproj", "{A1225DC7-2678-4B0F-8A0E-136DFA4CB0C6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MvcMovie", "MvcMovie\MvcMovie.csproj", "{A1225DC7-2678-4B0F-8A0E-136DFA4CB0C6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDoApi", "ToDoApi\ToDoApi.csproj", "{66493608-C1AD-4C88-B907-66EE293D53D5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ToDoApi", "ToDoApi\ToDoApi.csproj", "{66493608-C1AD-4C88-B907-66EE293D53D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDoContainer", "ToDoContainer\ToDoContainer.csproj", "{0012974C-10E6-4A45-9F69-44538EE649FD}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{C0CA8534-6732-4DBA-B137-79AC324B4351}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDoAPIContainer", "ToDoAPIContainer\ToDoAPIContainer.csproj", "{8BD46943-CA2B-4AE8-B7E2-3BCB005A305F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDoContainerLinux", "ToDoContainerLinux\ToDoContainerLinux.csproj", "{BE733C9E-9509-4721-8D12-983A695890D8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +29,22 @@ Global
 		{66493608-C1AD-4C88-B907-66EE293D53D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{66493608-C1AD-4C88-B907-66EE293D53D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{66493608-C1AD-4C88-B907-66EE293D53D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0012974C-10E6-4A45-9F69-44538EE649FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0012974C-10E6-4A45-9F69-44538EE649FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0012974C-10E6-4A45-9F69-44538EE649FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0012974C-10E6-4A45-9F69-44538EE649FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0CA8534-6732-4DBA-B137-79AC324B4351}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0CA8534-6732-4DBA-B137-79AC324B4351}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0CA8534-6732-4DBA-B137-79AC324B4351}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0CA8534-6732-4DBA-B137-79AC324B4351}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BD46943-CA2B-4AE8-B7E2-3BCB005A305F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BD46943-CA2B-4AE8-B7E2-3BCB005A305F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BD46943-CA2B-4AE8-B7E2-3BCB005A305F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BD46943-CA2B-4AE8-B7E2-3BCB005A305F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE733C9E-9509-4721-8D12-983A695890D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE733C9E-9509-4721-8D12-983A695890D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE733C9E-9509-4721-8D12-983A695890D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE733C9E-9509-4721-8D12-983A695890D8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

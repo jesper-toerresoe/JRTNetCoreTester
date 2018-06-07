@@ -1,0 +1,22 @@
+version: '3.4'
+
+services:
+  todocontainer:
+    image: ${DOCKER_REGISTRY}todocontainer
+    build:
+      context: .
+      dockerfile: ToDoContainer\Dockerfile
+
+  todoapicontainer:
+    image: ${DOCKER_REGISTRY}todoapicontainer
+    build:
+      context: .
+      dockerfile: ToDoAPIContainer\Dockerfile
+
+
+  todocontainerlinux:
+    image: ${DOCKER_REGISTRY}todocontainerlinux
+    build:
+      context: .
+      dockerfile: ToDoContainerLinux/Dockerfile
+

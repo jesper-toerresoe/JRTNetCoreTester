@@ -1,0 +1,27 @@
+version: '3.4'
+
+services:
+  todocontainer:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    ports:
+      - "80"
+
+  todoapicontainer:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    ports:
+      - "8080"
+
+  todocontainerlinux:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    ports:
+      - "8089"
+
+networks:
+  default:
+    external:
+      name: nat
+
+
